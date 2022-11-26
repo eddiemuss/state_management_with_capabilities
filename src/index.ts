@@ -217,7 +217,7 @@ const states = ["treated", "untreated", "to_finalize"] as const;
 const actions = [
   "mark_as_treated",
   "mark_as_untreated",
-  "mark_as_to_finalize"
+  "mark_as_to_finalize",
 ] as const;
 
 capabilities.forEach((capability) => {
